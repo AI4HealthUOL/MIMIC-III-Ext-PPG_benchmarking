@@ -63,7 +63,7 @@
 |train command    | `python main_ppg_bp.py --data ./path/to/folder/with/six/final/files --input-size 3750 --architecture XResNet1d101/Lenet1d --finetune-dataset mimic_ppg_bp  --select-input-channel 0 --refresh-rate 1 --batch-size 512 --epoc 50 --normalize` |
 | comment    |        |
 
-# Training models BP (CalibFree Vital)
+# Training models for classification tasks (AF,SAA, ARRH tasks)
 
 | key        | value                                                                                                                                                                           |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
