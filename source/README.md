@@ -70,7 +70,7 @@
 | dataset    | PulseDB                                                                                                                                                                         |
 | model      | BaseLine/XResNet1d101/XResNet1d50/Inception1d/LeNet1d                                                                                                                           |
 | script     | .../required_codes_files/main_ppg_af.py                           |
-| train command    | `python main_ppg_af.py --data ./path/to/folder/with/six/final/files --input-size 3750 --architecture XResNet1d101/Lenet1d --finetune-dataset mimic_ppg_bp  --select-input-channel 0 --refresh-rate 1 --batch-size 512 --epoc 50 --normalize`  |
+| train command    | `python main_ppg_af.py --data ./path/to/folder/with/six/final/files --input-size 3750 --architecture XResNet1d101/Lenet1d --finetune-dataset mimic_ppg_af1_2/mimic_ppg_af2_2/mimic_ppg_af3_2  --select-input-channel 0 --refresh-rate 1 --batch-size 512 --epoc 50 --normalize`  |
 | comment    |               |
 
 
