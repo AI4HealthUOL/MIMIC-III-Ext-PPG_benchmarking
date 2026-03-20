@@ -25,7 +25,7 @@
 ### Final File Organization
 
 1. **Create a New Folder**:
-   - Create a new folder to store the final set of files (this is a folder that you ahould address it later in the main-ppg code) 
+   - Create a new folder to store the final set of files (this is a folder that you ahould address it later in the code) 
 
 2. **Move Generated Files**:
    - Move the generated `df_memmap.pkl`, `memmap.npy`, and `memmap_meta.npz` files to this new folder.
@@ -57,8 +57,8 @@
 
 | key        | value                                                                                                                                                                       |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dataset    | PulseDB                                                                                                                                                                     |
-| model      | BaseLine/XResNet1d101/XResNet1d50/Inception1d/LeNet1d                                                                                                                       |
+| dataset    |                                                                                                                                                                    |
+| model      | XResNet1d101/LeNet1d                                                                                                                       |
 | script     | .../required_codes_files/main_ppg_bp.py                     |
 |train command    | `python main_ppg_bp.py --data ./path/to/folder/with/six/final/files --input-size 3750 --architecture XResNet1d101/Lenet1d --finetune-dataset mimic_ppg_bp  --select-input-channel 0 --refresh-rate 1 --batch-size 512 --epoc 50 --normalize` |
 | comment    |        |
@@ -66,9 +66,9 @@
 # Training models for classification tasks (AF,SAA, ARRH tasks)
 
 | key        | value                                                                                                                                                                           |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dataset    | PulseDB                                                                                                                                                                         |
-| model      | BaseLine/XResNet1d101/XResNet1d50/Inception1d/LeNet1d                                                                                                                           |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|dataset    |                                                                                                                                                                     
+| model      | XResNet1d101/XResNet1d50/Inception1d/LeNet1d                                                                                                                           |
 | script     | .../required_codes_files/main_ppg_af.py                           |
 | train command    | `python main_ppg_af.py --data ./path/to/folder/with/six/final/files --input-size 3750 --architecture XResNet1d101/Lenet1d --finetune-dataset mimic_ppg_af1_2/mimic_ppg_af2_2/mimic_ppg_af3_2  --select-input-channel 0 --refresh-rate 1 --batch-size 512 --epoc 50 --normalize`  |
 | comment    |               |
