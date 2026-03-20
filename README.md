@@ -24,7 +24,7 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 ---
 
 ### **2. Training Models with PulseDB Subsets**
-Once preprocessing is complete, you can train different models using various **PulseDB datasets**., leveraging different training scenarios to optimize model performance. These scenarios include variations in calibration strategies and dataset splits to assess their impact on both in-distribution (ID) and out-of-distribution (OOD) generalization. 
+Once preprocessing is complete, you can train different models.
 
 📌 **Follow the instructions in the Processing section of the repository:**  
 🔗 [Training Models](https://github.com/AI4HealthUOL/ppg-ood-generalization/tree/main/Processing)
