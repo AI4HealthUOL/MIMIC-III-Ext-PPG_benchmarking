@@ -20,7 +20,7 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 
  Summary of the datasets utilized in this study
  
-![PulseDB Dataset](images/pulseDB.png)
+![PulseDB Dataset](images/dataset.png)
 ---
 
 ### **2. Training Models with PulseDB Subsets**
