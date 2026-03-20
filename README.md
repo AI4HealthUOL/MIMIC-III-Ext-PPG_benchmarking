@@ -27,9 +27,9 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 Once preprocessing is complete, you can train different models.
 
 📌 **Follow the instructions in the Processing section of the repository:**  
-🔗 [Training Models](https://github.com/AI4HealthUOL/ppg-ood-generalization/tree/main/Processing)
+🔗 [Training Models](https://github.com/AI4HealthUOL/MIMIC-III-Ext-PPG_benchmarking/tree/main/source)
 
-![PulseDB Dataset](images/fig2.png)
+
 
 ---
 ![PulseDB Dataset](images/final.png)
