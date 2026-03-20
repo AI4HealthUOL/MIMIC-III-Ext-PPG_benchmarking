@@ -23,9 +23,7 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 ![PulseDB Dataset](images/pulseDB.png)
 ---
 
-
-
-### **3. Training Models with PulseDB Subsets**
+### **2. Training Models with PulseDB Subsets**
 Once preprocessing is complete, you can train different models using various **PulseDB datasets**., leveraging different training scenarios to optimize model performance. These scenarios include variations in calibration strategies and dataset splits to assess their impact on both in-distribution (ID) and out-of-distribution (OOD) generalization. 
 
 📌 **Follow the instructions in the Processing section of the repository:**  
@@ -37,25 +35,22 @@ Once preprocessing is complete, you can train different models using various **P
 ![PulseDB Dataset](images/final.png)
 ---
 📖 Citation
-Please consider citing our paper:
+Please consider citing our paper.
 
-<pre>
-@article{moulaeifard2025generalizable,
-  title={Generalizable deep learning for photoplethysmography-based blood pressure estimation--a benchmarking study},
-  author={Moulaeifard, Mohammad and Charlton, Peter H and Strodthoff, Nils},
-  journal={Machine Learning: Health},
-  year={2025}
-}
-</pre>
 
 
 ---
 
 ---
 ## **📚 References**
-📌 **PulseDB Dataset**  
-Wang W, Mohseni P, Kilgore KL, Najafizadeh L. PulseDB: A large, cleaned dataset based on MIMIC-III and VitalDB for benchmarking cuff-less blood pressure estimation methods. *Frontiers in Digital Health*. 2023 Feb 8;4:1090854.  
-
-📌 **BP Benchmarking Dataset**  
-González S, Hsieh WT, Chen TP. A benchmark for machine-learning based non-invasive blood pressure estimation using photoplethysmogram. *Scientific Data*. 2023 Mar 21;10(1):149.
-
+📌 **MIMIC-III-Ext-PPG Dataset**  
+@article{PhysioNet-mimic-iii-ext-ppg-1.1.0,
+  author = {Moulaeifard, Mohammad and Charlton, Peter H and Strodthoff, Nils},
+  title = {{MIMIC-III-Ext-PPG: A  PPG Benchmark Dataset for Cardiorespiratory Analysis}},
+  journal = {{PhysioNet}},
+  year = {2026},
+  month = mar,
+  note = {Version 1.1.0},
+  doi = {10.13026/r6k1-xt76},
+  url = {https://doi.org/10.13026/r6k1-xt76}
+}
