@@ -15,11 +15,8 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 
 ## **🛠 Step-by-Step Procedure**
 
-### **1. Preprocessing the PulseDB Dataset**
-This project utilizes the **PulseDB dataset** (Wang et al., 2023) for **training and ID/OOD evaluations**. We define different subsets based on the data source (**Vital, MIMIC, or Combined**) with different training scenarios such as **Calib, CalibFree, and AAMI-based subsets**.
-
-📌 **To generate the dataset**, follow the instructions in the **PulseDB_Preprocessing** section of this repository:  
-🔗 [PulseDB Preprocessing](https://github.com/AI4HealthUOL/ppg-ood-generalization/tree/main/PulseDB_preprocessing)
+### **1. Preprocessing**
+   For each dataset, first generate the corresponding signals.npy and metadata.csv files. You need to download the signals and metadata directly from PhysioNet. Please note that the PhysioNet WFDB signals contain multiple channels, including PPG, ECG, ABP, and RESP. Since this project only required PPG, we extracted the PPG channel from the downloaded WFDB files and converted it into .npy format.
 
 ---
 
