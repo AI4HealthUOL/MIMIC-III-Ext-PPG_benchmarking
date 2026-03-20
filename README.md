@@ -28,7 +28,4 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 📌 **Follow the instructions in the source section of the repository:**  
 
 
----
-📖 Citation
-Please consider citing our paper.
 
