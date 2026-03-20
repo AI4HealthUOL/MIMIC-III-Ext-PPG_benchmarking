@@ -15,20 +15,10 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 
 ## **🛠 Step-by-Step Procedure**
 
-### **1. Preprocessing**
+### **1. Preprocessing Dataset**
    For each dataset, first generate the corresponding signals.npy and metadata.csv files. You need to download the signals and metadata directly from PhysioNet. Please note that the PhysioNet WFDB signals contain multiple channels, including PPG, ECG, ABP, and RESP. Since this project only required PPG, we extracted the PPG channel from the downloaded WFDB files and converted it into .npy format.
 
----
-
-### **2. Preprocessing the External (BP-Benchmarking) Dataset**
-This project also utilizes the **External dataset** (González et al., 2023) for **OOD evaluation**. To evaluate the generalization performance of AI models beyond PulseDB, we utilize an external dataset that provides an independent benchmark for non-invasive blood pressure estimation. This dataset allows us to test model robustness in Out-of-Distribution (OOD) scenarios and assess the impact of dataset shifts.
-
-📌 **To prepare the dataset for testing**, follow the instructions in the **External_dataset_Preprocessing** section of this repository:  
-🔗 [External Dataset Preprocessing](https://github.com/AI4HealthUOL/ppg-ood-generalization/tree/main/External_dataset_preprocessing)
-
-
----
- Summary of the datasets utilized in this study: Two subsets PulseDB (Wang et al. 2023) for training and four external datasets (González et al., 2023) for OOD evaluation.
+ Summary of the datasets utilized in this study
  
 ![PulseDB Dataset](images/pulseDB.png)
 ---
