@@ -1,8 +1,8 @@
-# **Generalizable Deep Learning for Photoplethysmography-Based Blood Pressure Estimation – A Benchmarking Study**
+# **Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG**
 
 This is the official code repository for the paper 
-**["Generalizable Deep Learning for Photoplethysmography-Based Blood Pressure Estimation – A Benchmarking Study"](https://iopscience.iop.org/article/10.1088/3049-477X/ae01a8)** 
-by **Mohammad Moulaeifard, Peter Charlton, and Nils Strodthoff**.
+**["Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG"](....)** 
+by **Mohammad Moulaeifard, Philip J. Aston, Peter Charlton, and Nils Strodthoff**.
 
 
 ---
