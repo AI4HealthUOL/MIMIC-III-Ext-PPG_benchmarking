@@ -23,7 +23,7 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 ![MIMIC-III-Ext-PPG Dataset](images/d_dataset.png)
 ---
 
-### **2. Training Models with PulseDB Subsets**
+### **2. Training Models**
 
 📌 **Follow the instructions in the source section of the repository:**  
 
