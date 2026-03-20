@@ -29,10 +29,6 @@ Once preprocessing is complete, you can train different models.
 📌 **Follow the instructions in the Processing section of the repository:**  
 🔗 [Training Models](https://github.com/AI4HealthUOL/MIMIC-III-Ext-PPG_benchmarking/tree/main/source)
 
-
-
----
-![PulseDB Dataset](images/final.png)
 ---
 📖 Citation
 Please consider citing our paper.
