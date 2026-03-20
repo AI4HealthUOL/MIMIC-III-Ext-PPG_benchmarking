@@ -1,7 +1,7 @@
 # **Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG**
 
 This is the official code repository for the paper 
-**["Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG"](....)** 
+"Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG"
 by **Mohammad Moulaeifard, Philip J. Aston, Peter Charlton, and Nils Strodthoff**.
 
 
@@ -24,29 +24,11 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 ---
 
 ### **2. Training Models with PulseDB Subsets**
-Once preprocessing is complete, you can train different models.
 
-📌 **Follow the instructions in the Processing section of the repository:**  
-🔗 [Training Models](https://github.com/AI4HealthUOL/MIMIC-III-Ext-PPG_benchmarking/tree/main/source)
+📌 **Follow the instructions in the source section of the repository:**  
+
 
 ---
 📖 Citation
 Please consider citing our paper.
 
-
-
----
-
----
-## **📚 References**
-📌 **MIMIC-III-Ext-PPG Dataset**  
-@article{PhysioNet-mimic-iii-ext-ppg-1.1.0,
-  author = {Moulaeifard, Mohammad and Charlton, Peter H and Strodthoff, Nils},
-  title = {{MIMIC-III-Ext-PPG: A  PPG Benchmark Dataset for Cardiorespiratory Analysis}},
-  journal = {{PhysioNet}},
-  year = {2026},
-  month = mar,
-  note = {Version 1.1.0},
-  doi = {10.13026/r6k1-xt76},
-  url = {https://doi.org/10.13026/r6k1-xt76}
-}
