@@ -5,7 +5,7 @@
 1. **Download Required Files**:
    - For each dataset, first generate the corresponding `signals.npy` and `metadata.csv` 
    
-   For each dataset, first generate the corresponding signals.npy and metadata.csv files. You need to download the signals and metadata directly from PhysioNet. Please note that the PhysioNet WFDB signals contain multiple channels, including PPG, ECG, ABP, and RESP. Since this project only required PPG, we extracted the PPG channel from the downloaded WFDB files and converted it into .npy format.
+    You need to download the signals and metadata directly from PhysioNet. Please note that the PhysioNet WFDB signals contain multiple channels, including PPG, ECG, ABP, and RESP. Since this project only required PPG, we extracted the PPG channel from the downloaded WFDB files and converted it into .npy format.
 
 2. **Organize Files**:
    - Create a folder named `data` in your project directory.
