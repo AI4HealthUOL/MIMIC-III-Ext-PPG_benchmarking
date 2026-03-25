@@ -27,5 +27,15 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 
 📌 **Follow the instructions in the source section of the repository:**  
 
+### **3. If you use our dataset, please cite our benchmarking paper**
 
+@misc{moulaeifard2026derivinghealthmetricsphotoplethysmogram,
+      title={Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG}, 
+      author={Mohammad Moulaeifard and Philip J. Aston and Peter H. Charlton and Nils Strodthoff},
+      year={2026},
+      eprint={2603.21832},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.21832}, 
+}
 
