@@ -39,5 +39,4 @@ This repository contains scripts for training and evaluating AI models on **MIMI
 
 ### **3. If you use our dataset, please cite our benchmarking paper**
 
-
-
+https://arxiv.org/abs/2603.21832
