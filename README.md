@@ -11,7 +11,7 @@ by **Mohammad Moulaeifard, Philip J. Aston, Peter Charlton, and Nils Strodthoff*
       eprint={2603.21832},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2603.21832}, 
+      url={[https://arxiv.org/abs/2603.21832](https://arxiv.org/abs/2603.21832)}, 
 }
 
 
